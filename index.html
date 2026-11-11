@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime Institute | SEBA &amp; AHSEC Coaching – Arts &amp; Commerce</title>
+  <meta name="description" content="Prime Institute – Assamese medium coaching for Class 6 to 12 (Arts & Commerce) under SEBA and AHSEC. Computer facility, science projects and Olympiad exam preparation." />
+  <link rel="icon" type="image/png" href="assets/logo/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Noto+Sans+Assamese:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+
+  
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="home">
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+    <div class="d-flex flex-wrap gap-3">
+      <a href="tel:+919876543210"><i class="fa-solid fa-phone me-1"></i> +91 98765 43210</a>
+      <a href="mailto:info@primeinstitute.in" class="d-none d-sm-inline"><i class="fa-solid fa-envelope me-1"></i> info@primeinstitute.in</a>
+    </div>
+    <div class="social">
+      <span class="me-2 d-none d-md-inline">Follow us:</span>
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- ============== NAVBAR (guaranteed to work) ============== -->
+<nav class="navbar navbar-expand-lg main-nav sticky-top">
+  <div class="container">
+
+    <!-- Brand + Inline SVG Logo -->
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <svg class="brand-logo" viewBox="0 0 100 100" width="46" height="46"
+           xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Prime Institute Logo">
+        <path d="M50 4 L92 18 L92 52 C92 78 50 96 50 96 C50 96 8 78 8 52 L8 18 Z"
+              fill="#12355b" stroke="#0b2545" stroke-width="1.5"/>
+        <path d="M50 12 L84 24 L84 52 C84 72 50 88 50 88 C50 88 16 72 16 52 L16 24 Z"
+              fill="none" stroke="#f4a300" stroke-width="1.5" opacity="0.45"/>
+        <polygon points="50,30 76,40 50,50 24,40" fill="#f4a300"/>
+        <rect x="36" y="42" width="28" height="14" fill="#ffffff" rx="1.5"/>
+        <rect x="47" y="30" width="6" height="20" fill="#f4a300"/>
+        <circle cx="50" cy="30" r="2.5" fill="#0b2545"/>
+        <rect x="28" y="60" width="44" height="3" fill="#f4a300" rx="1"/>
+        <rect x="32" y="68" width="36" height="3" fill="#f4a300" rx="1" opacity="0.7"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-title">Prime Institute</span>
+        <span class="brand-tagline">Arts &amp; Commerce · SEBA / AHSEC</span>
+      </span>
+    </a>
+
+    <!-- Hamburger button (mobile only) -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#mainMenu"
+            aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav links -->
+    <div class="collapse navbar-collapse" id="mainMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="courses.html" id="coursesDropdown"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+          <ul class="dropdown-menu" aria-labelledby="coursesDropdown">
+            <li><a class="dropdown-item" href="courses.html"><i class="fa-solid fa-book me-2 text-accent"></i>All Courses</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="courses.html">Class VI – VIII Foundation</a></li>
+            <li><a class="dropdown-item" href="courses.html">Class IX – X (SEBA)</a></li>
+            <li><a class="dropdown-item" href="courses.html">Class XI – XII Arts</a></li>
+            <li><a class="dropdown-item" href="courses.html">Class XI – XII Commerce</a></li>
+            <li><a class="dropdown-item" href="courses.html">Computer Course</a></li>
+            <li><a class="dropdown-item" href="courses.html">Olympiad Batch</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+        <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+          <a href="contact.html" class="btn btn-brand btn-sm px-3 py-2">
+            <i class="fa-solid fa-user-plus me-1"></i> Admission
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- ============== /NAVBAR ============== -->
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container position-relative">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <span class="hero-badge"><i class="fa-solid fa-graduation-cap me-2"></i>Class 6 – 12 · Assamese Medium</span>
+        <h1 class="mt-3">Building Bright Futures with <span class="text-accent">Prime Institute</span></h1>
+        <p class="lead mt-3">
+          Complete coaching for <strong>Arts &amp; Commerce</strong> streams under
+          <strong>SEBA</strong> and <strong>AHSEC</strong>. Computer facility, science projects,
+          Olympiad exam preparation and personal mentorship — all under one roof.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="courses.html" class="btn btn-brand btn-lg"><i class="fa-solid fa-book-open me-2"></i>Explore Courses</a>
+          <a href="contact.html" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-phone me-2"></i>Contact Us</a>
+        </div>
+        <div class="hero-points mt-4">
+          <span><i class="fa-solid fa-circle-check"></i> Experienced Faculty</span>
+          <span><i class="fa-solid fa-circle-check"></i> Small Batches</span>
+          <span><i class="fa-solid fa-circle-check"></i> Free Computer Class</span>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="hero-card">
+          <h5 class="mb-3"><i class="fa-solid fa-bullhorn text-accent me-2"></i>Admission Open 2026</h5>
+          <ul class="list-unstyled mb-4">
+            <li><i class="fa-solid fa-check"></i> Class VI – X (SEBA)</li>
+            <li><i class="fa-solid fa-check"></i> Class XI – XII Arts (AHSEC)</li>
+            <li><i class="fa-solid fa-check"></i> Class XI – XII Commerce (AHSEC)</li>
+            <li><i class="fa-solid fa-check"></i> Olympiad &amp; Science Project Guidance</li>
+          </ul>
+          <a href="contact.html" class="btn btn-accent w-100">Book a Free Demo Class</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Why Choose Prime Institute?</h2>
+      <p class="section-sub">We combine strong academic teaching with practical exposure so every student grows with confidence.</p>
+      <div class="title-line"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card text-center">
+          <div class="feature-icon mx-auto"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h5>Expert Teachers</h5>
+          <p class="mb-0 small">Highly qualified and experienced faculty for Arts &amp; Commerce subjects.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card text-center">
+          <div class="feature-icon mx-auto"><i class="fa-solid fa-computer"></i></div>
+          <h5>Computer Facility</h5>
+          <p class="mb-0 small">Modern computer lab with practical training for every enrolled student.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card text-center">
+          <div class="feature-icon mx-auto"><i class="fa-solid fa-flask-vial"></i></div>
+          <h5>Science Projects</h5>
+          <p class="mb-0 small">Hands-on project work and exhibition guidance for young innovators.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card text-center">
+          <div class="feature-icon mx-auto"><i class="fa-solid fa-medal"></i></div>
+          <h5>Olympiad Exams</h5>
+          <p class="mb-0 small">Special coaching for Olympiad and other competitive examinations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT PREVIEW -->
+<section class="section bg-light-soft">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="about-img-wrap">
+          <img src="assets/images/about.jpg" alt="Prime Institute classroom" class="img-fluid rounded-4 shadow" />
+          <div class="about-badge">
+            <span class="num">10+</span>
+            <span class="txt">Years of<br>Excellence</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <span class="eyebrow">About Prime Institute</span>
+        <h2 class="section-title mt-2">A Trusted Name for Arts &amp; Commerce Coaching in Assam</h2>
+        <p class="mt-3">
+          Prime Institute is an <strong>Assamese medium</strong> coaching centre dedicated to students of
+          <strong>Class 6 to 12</strong>. We prepare students for <strong>SEBA</strong> (Class X) and
+          <strong>AHSEC</strong> (Class XII) examinations with a focus on concept clarity, regular practice
+          and personal attention.
+        </p>
+        <ul class="about-list list-unstyled mt-4">
+          <li><i class="fa-solid fa-circle-check"></i> Assamese medium teaching with bilingual support</li>
+          <li><i class="fa-solid fa-circle-check"></i> Regular tests, assignments and doubt-clearing classes</li>
+          <li><i class="fa-solid fa-circle-check"></i> Computer education and digital literacy included</li>
+          <li><i class="fa-solid fa-circle-check"></i> Guidance for science projects and Olympiad exams</li>
+        </ul>
+        <a href="about.html" class="btn btn-brand mt-3">Know More About Us <i class="fa-solid fa-arrow-right ms-1"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PRINCIPAL MESSAGE — PREVIEW ============== -->
+<section class="section principal-preview-section">
+  <div class="container">
+    <div class="row align-items-center g-4 g-lg-5">
+
+      <div class="col-lg-4 text-center text-lg-start">
+        <div class="principal-preview-photo">
+          <img id="principalPreviewPhoto"
+               src="assets/images/principal.jpg"
+               alt="Principal of Prime Institute"
+               class="img-fluid rounded-4 shadow" />
+          <span class="preview-badge"><i class="fa-solid fa-quote-left me-1"></i>Principal</span>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <span class="eyebrow">Message from the Principal</span>
+        <h2 class="section-title mt-2">
+          A Word from Our <span class="text-accent">Principal</span>
+        </h2>
+
+        <blockquote class="preview-quote" id="principalPreviewQuote">
+          "At Prime Institute, we believe every student carries a spark of brilliance.
+          Our role is to fan that spark into a flame."
+        </blockquote>
+
+        <p class="preview-message" id="principalPreviewMessage">
+          Through patient teaching, honest guidance, and an environment where curiosity
+          is celebrated, we help each student discover their full potential — whether they
+          are in Class VI or Class XII, preparing for SEBA or AHSEC.
+        </p>
+
+        <div class="preview-footer d-flex flex-wrap align-items-center gap-3 mt-4">
+          <div>
+            <div class="preview-name" id="principalPreviewName">Dr. Bhaskar Jyoti Sarma</div>
+            <div class="preview-role" id="principalPreviewRole">
+              Principal &amp; Founder
+            </div>
+          </div>
+          <a href="about.html#principal" class="btn btn-outline-brand btn-sm ms-auto">
+            Read Full Message <i class="fa-solid fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ============== /PRINCIPAL MESSAGE PREVIEW ============== -->
+
+<!-- STATS -->
+<section class="stats-section">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-lg-3"><div class="stat-box"><h3 class="counter" data-target="1200">0</h3><p>Happy Students</p></div></div>
+      <div class="col-6 col-lg-3"><div class="stat-box"><h3 class="counter" data-target="18">0</h3><p>Expert Teachers</p></div></div>
+      <div class="col-6 col-lg-3"><div class="stat-box"><h3 class="counter" data-target="10">0</h3><p>Years Experience</p></div></div>
+      <div class="col-6 col-lg-3"><div class="stat-box"><h3><span class="counter" data-target="96">0</span>%</h3><p>Success Rate</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES PREVIEW -->
+<section class="section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Our Popular Courses</h2>
+      <p class="section-sub">Structured programs for every class from VI to XII — Arts and Commerce streams.</p>
+      <div class="title-line"></div>
+    </div>
+    <div class="row g-4" id="courseGridHome"></div>
+    <div class="text-center mt-5">
+      <a href="courses.html" class="btn btn-outline-brand btn-lg">View All Courses <i class="fa-solid fa-arrow-right ms-1"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- TEACHERS PREVIEW -->
+<section class="section bg-light-soft">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Meet Our Teachers</h2>
+      <p class="section-sub">Dedicated mentors who guide every student towards academic success.</p>
+      <div class="title-line"></div>
+    </div>
+    <div class="row g-4" id="teacherGridHome"></div>
+    <div class="text-center mt-5">
+      <a href="teachers.html" class="btn btn-outline-brand btn-lg">View All Teachers <i class="fa-solid fa-arrow-right ms-1"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS PREVIEW -->
+<section class="section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Upcoming Events</h2>
+      <p class="section-sub">Science exhibitions, Olympiads, workshops and cultural programmes.</p>
+      <div class="title-line"></div>
+    </div>
+    <div class="row g-4" id="eventGridHome"></div>
+    <div class="text-center mt-5">
+      <a href="events.html" class="btn btn-outline-brand btn-lg">View All Events <i class="fa-solid fa-arrow-right ms-1"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-inner text-center">
+      <h2 class="text-white mb-3">Ready to Join Prime Institute?</h2>
+      <p class="mb-4 text-white-50">Admissions are open for the 2026 session. Reserve your seat today.</p>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <a href="contact.html" class="btn btn-accent btn-lg"><i class="fa-solid fa-pen-to-square me-2"></i>Apply Now</a>
+        <a href="tel:+919876543210" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-phone me-2"></i>+91 98765 43210</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== COMPLETE FOOTER ============== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-brand d-flex align-items-center gap-2 mb-3">
+          <svg viewBox="0 0 100 100" width="42" height="42"
+               xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M50 4 L92 18 L92 52 C92 78 50 96 50 96 C50 96 8 78 8 52 L8 18 Z"
+                  fill="#ffffff"/>
+            <polygon points="50,30 76,40 50,50 24,40" fill="#f4a300"/>
+            <rect x="36" y="42" width="28" height="14" fill="#12355b" rx="1.5"/>
+            <rect x="47" y="30" width="6" height="20" fill="#f4a300"/>
+            <circle cx="50" cy="30" r="2.5" fill="#12355b"/>
+          </svg>
+          <span>Prime Institute</span>
+        </div>
+        <p class="small">Assamese medium coaching centre for Class 6 to 12 (Arts &amp; Commerce) under SEBA and AHSEC. Computer facility, science projects and Olympiad exam guidance.</p>
+        <div class="footer-social mt-3">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="teachers.html">Teachers</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h6 class="footer-title">Our Programs</h6>
+        <ul class="footer-links">
+          <li><a href="courses.html">Class VI – VIII Foundation</a></li>
+          <li><a href="courses.html">Class IX – X (SEBA)</a></li>
+          <li><a href="courses.html">Class XI – XII Arts (AHSEC)</a></li>
+          <li><a href="courses.html">Class XI – XII Commerce (AHSEC)</a></li>
+          <li><a href="courses.html">Computer &amp; Olympiad Classes</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h6 class="footer-title">Contact Info</h6>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-location-dot"></i> Prime Institute, Main Road, Guwahati, Assam – 781001</li>
+          <li><i class="fa-solid fa-phone"></i> <a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@primeinstitute.in">info@primeinstitute.in</a></li>
+          <li><i class="fa-solid fa-clock"></i> Mon – Sat : 7:00 AM – 6:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="d-flex flex-wrap justify-content-between gap-2 small">
+      <span>&copy; <span id="year"></span> Prime Institute. All Rights Reserved.</span>
+      <span>Designed with <i class="fa-solid fa-heart text-accent"></i> for Assam's students</span>
+    </div>
+  </div>
+</footer>
+<!-- ============== /FOOTER ============== -->
+
+<button id="backTop" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

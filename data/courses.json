@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c1",
+    "title": "Foundation Course (Class VI – VIII)",
+    "category": "foundation",
+    "categoryLabel": "Foundation",
+    "duration": "12 Months",
+    "seats": "30 Seats",
+    "fee": "₹1,200 / month",
+    "image": "assets/images/course-foundation.jpg",
+    "description": "A strong base-building programme covering Assamese, English, Mathematics, Science and Social Science with weekly tests and activity-based learning.",
+    "subjects": ["Assamese", "English", "Maths", "Science", "Soc. Science"]
+  },
+  {
+    "id": "c2",
+    "title": "Class IX – X (SEBA) Full Course",
+    "category": "seba",
+    "categoryLabel": "SEBA",
+    "duration": "12 Months",
+    "seats": "35 Seats",
+    "fee": "₹1,500 / month",
+    "image": "assets/images/course-seba.jpg",
+    "description": "Complete HSLC preparation under SEBA with chapter-wise notes, previous year paper solving and monthly model examinations.",
+    "subjects": ["Assamese", "English", "Maths", "Science", "Soc. Science"]
+  },
+  {
+    "id": "c3",
+    "title": "Class XI – XII Arts (AHSEC)",
+    "category": "arts",
+    "categoryLabel": "Arts",
+    "duration": "24 Months",
+    "seats": "40 Seats",
+    "fee": "₹1,800 / month",
+    "image": "assets/images/course-arts.jpg",
+    "description": "Assamese-medium higher secondary coaching for Arts stream with expert guidance in Economics, History, Political Science and Education.",
+    "subjects": ["Economics", "History", "Pol. Science", "Education", "Assamese"]
+  },
+  {
+    "id": "c4",
+    "title": "Class XI – XII Commerce (AHSEC)",
+    "category": "commerce",
+    "categoryLabel": "Commerce",
+    "duration": "24 Months",
+    "seats": "40 Seats",
+    "fee": "₹2,000 / month",
+    "image": "assets/images/course-commerce.jpg",
+    "description": "Complete Commerce coaching covering Accountancy, Business Studies, Economics and Finance with practical numerical problem sessions.",
+    "subjects": ["Accountancy", "Business Studies", "Economics", "Finance"]
+  },
+  {
+    "id": "c5",
+    "title": "Computer Application Course",
+    "category": "computer",
+    "categoryLabel": "Computer",
+    "duration": "6 Months",
+    "seats": "25 Seats",
+    "fee": "₹900 / month",
+    "image": "assets/images/course-computer.jpg",
+    "description": "Hands-on computer training for every enrolled student — MS Office, typing in Assamese & English, internet safety and basic programming.",
+    "subjects": ["MS Office", "Typing", "Internet", "Basics of Coding"]
+  },
+  {
+    "id": "c6",
+    "title": "Olympiad & Competitive Exam Batch",
+    "category": "olympiad",
+    "categoryLabel": "Olympiad",
+    "duration": "8 Months",
+    "seats": "20 Seats",
+    "fee": "₹1,400 / month",
+    "image": "assets/images/course-olympiad.jpg",
+    "description": "Special batch for NSO, IMO, NSEJS and other Olympiads plus foundation for future competitive examinations.",
+    "subjects": ["Reasoning", "Maths", "Science", "GK"]
+  }
+]

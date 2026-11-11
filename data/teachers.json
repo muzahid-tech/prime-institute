@@ -1,0 +1,110 @@
+[
+  {
+    "id": "t1",
+    "name": "Dr. Bhaskar Jyoti Sarma",
+    "subject": "Economics",
+    "qualification": "M.A., Ph.D. (Economics)",
+    "experience": "14 Years",
+    "stream": "arts",
+    "image": "assets/images/teacher-1.jpg"
+  },
+  {
+    "id": "t2",
+    "name": "Mrs. Anima Kalita",
+    "subject": "Assamese",
+    "qualification": "M.A. (Assamese), B.Ed.",
+    "experience": "12 Years",
+    "stream": "general",
+    "image": "assets/images/teacher-2.jpg"
+  },
+  {
+    "id": "t3",
+    "name": "Mr. Pranjal Bora",
+    "subject": "Accountancy",
+    "qualification": "M.Com., CA (Inter)",
+    "experience": "10 Years",
+    "stream": "commerce",
+    "image": "assets/images/teacher-3.jpg"
+  },
+  {
+    "id": "t4",
+    "name": "Mrs. Rupali Das",
+    "subject": "Business Studies",
+    "qualification": "M.Com., B.Ed.",
+    "experience": "9 Years",
+    "stream": "commerce",
+    "image": "assets/images/teacher-4.jpg"
+  },
+  {
+    "id": "t5",
+    "name": "Mr. Dhruba Saikia",
+    "subject": "History",
+    "qualification": "M.A. (History), NET",
+    "experience": "11 Years",
+    "stream": "arts",
+    "image": "assets/images/teacher-5.jpg"
+  },
+  {
+    "id": "t6",
+    "name": "Mrs. Junmoni Gogoi",
+    "subject": "Mathematics",
+    "qualification": "M.Sc. (Mathematics)",
+    "experience": "8 Years",
+    "stream": "general",
+    "image": "assets/images/teacher-6.jpg"
+  },
+  {
+    "id": "t7",
+    "name": "Mr. Kaushik Baruah",
+    "subject": "Computer Science",
+    "qualification": "MCA, B.Sc. (IT)",
+    "experience": "7 Years",
+    "stream": "general",
+    "image": "assets/images/teacher-7.jpg"
+  },
+  {
+    "id": "t8",
+    "name": "Mrs. Pallabi Deka",
+    "subject": "English",
+    "qualification": "M.A. (English), B.Ed.",
+    "experience": "9 Years",
+    "stream": "general",
+    "image": "assets/images/teacher-8.jpg"
+  },
+  {
+    "id": "t9",
+    "name": "Mr. Nayan Sharma",
+    "subject": "Political Science",
+    "qualification": "M.A. (Pol. Science)",
+    "experience": "10 Years",
+    "stream": "arts",
+    "image": "assets/images/teacher-9.jpg"
+  },
+  {
+    "id": "t10",
+    "name": "Mrs. Manashi Nath",
+    "subject": "Geography",
+    "qualification": "M.A. (Geography), B.Ed.",
+    "experience": "6 Years",
+    "stream": "arts",
+    "image": "assets/images/teacher-10.jpg"
+  },
+  {
+    "id": "t11",
+    "name": "Mr. Himangshu Talukdar",
+    "subject": "Finance",
+    "qualification": "M.Com. (Finance)",
+    "experience": "8 Years",
+    "stream": "commerce",
+    "image": "assets/images/teacher-11.jpg"
+  },
+  {
+    "id": "t12",
+    "name": "Mrs. Priyanka Choudhury",
+    "subject": "Education",
+    "qualification": "M.A. (Education), M.Ed.",
+    "experience": "7 Years",
+    "stream": "arts",
+    "image": "assets/images/teacher-12.jpg"
+  }
+]

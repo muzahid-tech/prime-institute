@@ -1,0 +1,21 @@
+{
+  "name": "Dr. Bhaskar Jyoti Sarma",
+  "designation": "Principal & Founder",
+  "qualification": "M.A., Ph.D. (Economics), Gauhati University",
+  "experience": "18+ Years in Education",
+  "photo": "assets/images/principal.jpg",
+  "signatureText": "Dr. Bhaskar Jyoti Sarma",
+  "shortMessage": "At Prime Institute, we believe every student carries a spark of brilliance. Our role is to fan that spark into a flame — through patient teaching, honest guidance, and an environment where curiosity is celebrated.",
+  "fullMessage": [
+    "When I founded Prime Institute in 2015, I had one simple dream — to build a place where students from Assamese-medium schools could receive the same quality of education that students in English-medium schools take for granted. Today, a decade later, that dream has grown into a thriving community of over 1,200 learners and 18 dedicated teachers.",
+    "Education, in my view, is not just about scoring marks. It is about developing character, sharpening curiosity, and preparing young minds to face life's challenges with confidence. Whether a student is preparing for their SEBA Class X examinations or dreaming of an AHSEC Commerce distinction, we walk alongside them at every step — correcting, encouraging, and inspiring.",
+    "Our computer lab, science project guidance, and Olympiad coaching are not extras — they are essential parts of how we build complete students. In today's world, an Assamese-medium student must feel equally at home with a textbook and a keyboard. That is the promise of Prime Institute.",
+    "To every parent who has trusted us, and to every student who has walked through our doors — thank you. Your belief in us is what keeps the Prime Institute family growing, year after year."
+  ],
+  "quote": "Teach the mind. Touch the heart. Transform the life.",
+  "highlights": [
+    { "icon": "fa-solid fa-graduation-cap", "value": "1,200+", "label": "Students Mentored" },
+    { "icon": "fa-solid fa-award", "value": "10+",    "label": "Years of Leadership" },
+    { "icon": "fa-solid fa-book-open", "value": "18",   "label": "Faculty Members" }
+  ]
+}
