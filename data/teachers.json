@@ -1,8 +1,8 @@
 [
   {
     "id": "t1",
-    "name": "Dr. Bhaskar Jyoti Sarma",
-    "subject": "Economics",
+    "name": "Abul Kalam Azad",
+    "subject": "Principal & Founder",
     "qualification": "M.A., Ph.D. (Economics)",
     "experience": "14 Years",
     "stream": "arts",
@@ -64,7 +64,7 @@
   },
   {
     "id": "t8",
-    "name": "Mrs. Pallabi Deka",
+    "name": "Habibur Rahman",
     "subject": "English",
     "qualification": "M.A. (English), B.Ed.",
     "experience": "9 Years",
@@ -73,8 +73,8 @@
   },
   {
     "id": "t9",
-    "name": "Mr. Nayan Sharma",
-    "subject": "Political Science",
+    "name": "Baharul Islam",
+    "subject": "Social Science",
     "qualification": "M.A. (Pol. Science)",
     "experience": "10 Years",
     "stream": "arts",
@@ -100,8 +100,8 @@
   },
   {
     "id": "t12",
-    "name": "Mrs. Priyanka Choudhury",
-    "subject": "Education",
+    "name": "Muzahidul Islam",
+    "subject": "English",
     "qualification": "M.A. (Education), M.Ed.",
     "experience": "7 Years",
     "stream": "arts",
